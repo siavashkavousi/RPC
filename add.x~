@@ -1,9 +1,0 @@
-struct number {
-	int num;
-};
-
-program ADDITION {
-	version ADDITION_V1 {
-		int ADD(number) = 1;
-	} = 1;
-} = 0x2fffffff;
